@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 7-8</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header>
+    <div class="wrapper">
+      <div class="header_menu">
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <nav class="nav header_nav">
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">blog</a>
+          <a href="#">products</a>
+          <a href="#">lorem ipsum</a>
+          <a href="#">dolor sit amet</a>
+        </nav>
+      </div>
+    </div>  
+    <div class="header_slider">
+      <div class="wrapper">
+        <h1>lorem ipsum dolor</h1>
+        <h2>it will make all of your dreams come true</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatum atque vel sit, magni, alias officiis consectetur quo unde doloribus dolorem sunt quidem, nemo. Quae consequatur, omnis nisi ab repellendus.</p>
+        <img class="slide" src="img/iphone_play1.png" alt="1">
+        <img class="slide" src="img/iphone_play2.png" alt="2">
+        <img class="slide" src="img/iphone_play3.png" alt="3">
+        <img class="slide" src="img/iphone_play4.png" alt="4">
+        <div class="slider_nav">
+          <a onclick="showCurrentSlide(1)"></a>
+          <a onclick="showCurrentSlide(2)"></a>
+          <a onclick="showCurrentSlide(3)"></a>
+          <a onclick="showCurrentSlide(4)"></a>
+        </div>
+        
+      </div> 
+      <div class="slider_navigation">
+        <span class="slider_nav_btn_left" onclick="navigateSlides(-1)"></span>
+        <span class="slider_nav_btn_right" onclick="navigateSlides(1)"></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="blurbs">
+    <div class="wrapper">
+      <section>
+        <h3>about our company</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, laudantium, aperiam. Itaque dolorum dolore, error optio quasi ex aliquam non, mollitia asperiores, ullam quis. Voluptatem animi neque ratione architecto omnis!</p>
+        <a href="#">read more</a>
+      </section>
+      <section>
+        <h3>about our company</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, laudantium, aperiam. Itaque dolorum dolore, error optio quasi ex aliquam non, mollitia asperiores, ullam quis. Voluptatem animi neque ratione architecto omnis!</p>
+        <a href="#">read more</a>
+      </section>
+      <section>
+        <h3>about our company</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, laudantium, aperiam. Itaque dolorum dolore, error optio quasi ex aliquam non, mollitia asperiores, ullam quis. Voluptatem animi neque ratione architecto omnis!</p>
+        <a href="#">read more</a>
+      </section>
+    </div>
+  </div>
+
+  <div class="logos_block">
+    <div class="wrapper">
+      <a href="#"><img src="img/icon_logos_1.png" alt="logo"></a>
+      <a href="#"><img src="img/icon_logos_2.png" alt="logo"></a>
+      <a href="#"><img src="img/icon_logos_3.png" alt="logo"></a>
+      <a href="#"><img src="img/icon_logos_4.png" alt="logo"></a>
+      <a href="#"><img src="img/icon_logos_5.png" alt="logo"></a>
+      <a href="#"><img src="img/icon_logos_6.png" alt="logo"></a>
+    </div>
+  </div>
+
+  <footer>
+      <div class="footer_top">
+        <div class="wrapper">
+          <section>
+            <h3>pigbull<span>er</span></h3>
+            <address>Copyright 2013, Pingbull AS</address>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam unde in fuga vitae deserunt delectus quaerat, ea iste accusamus, alias cumque architecto quis quidem reprehenderit esse, dolor dicta minus.</p>
+          </section>
+          <section>
+            <h3>recent comments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam rem eveniet sint aperiam sequi laudantium nostrum quasi, et, ipsum qui quisquam, quaerat quidem tenetur, facilis non. Animi, aliquam beatae.</p>
+          </section>
+          <section>
+            <h3>recent comments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam rem eveniet sint aperiam sequi laudantium nostrum quasi, et, ipsum qui quisquam, quaerat quidem tenetur, facilis non. Animi, aliquam beatae.</p>
+          </section>
+          <section>
+            <h3>news categories</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, minus, aliquam! Assumenda alias aut, inventore sit qui eos voluptatem suscipit ratione ipsum dolore at maiores pariatur accusantium, a corporis</p>
+          </section>
+        </div>
+      </div>  
+      <div class="footer_bottom">
+        <div class="wrapper">
+          <nav class="nav footer_nav">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">blog</a>
+            <a href="#">products</a>
+            <a href="#">lorem ipsum</a>
+            <a href="#">dolor sit amet</a>
+          </nav>
+          <address>Designed by <span>Pingbull AS</span></address>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
